@@ -1,3 +1,6 @@
+
+// ------------------ text section -----------------------//
+
 readString 
 
 Prolog 
@@ -114,13 +117,13 @@ Epilog and return 0
    0x400894 <main+116>:	add	sp, sp, #0x10
    0x400898 <main+120>:	ret
    
-data section 
+// ------------------ data section -----------------------//
 
 Address             Content             Description
 0x420044            0x00000044          char grade = 'D';
 
 
-BSS section
+// ------------------ BSS section -----------------------//
 Address             Description
 0x420058            char name[BUFSIZE];
 
