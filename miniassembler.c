@@ -1,6 +1,6 @@
 /*--------------------------------------------------------------------*/
 /* miniassembler.c                                                    */
-/* Author: Bob Dondero, Donna Gabai                                   */
+/* Author: Jacqueline He, Jiatong Yu                                  */
 /*--------------------------------------------------------------------*/
 
 #include "miniassembler.h"
