@@ -14,10 +14,10 @@ int main(void) {
     psFile = fopen("dataB","w");
 
     /* write my name into file */
-    fprintf(psFile, "jiatongy");
+    fprintf(psFile, "Jiatong&Jacqueline");
     /* write 40 null bytes into file to the end of buf */
     /* 40 is a magic number that represent the remaining chars inside buf to be filled*/
-    for(i = 0; i < 40; i++) {
+    for(i = 0; i < 30; i++) {
         putc('\0', psFile);
     }
 
